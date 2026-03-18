@@ -1,0 +1,33 @@
+body 
+{
+    background-color: rgb(229, 221, 232);
+    text-align: center;
+}
+
+h2 
+{
+    background-color: rgba(96, 232, 158, 0.842);
+}
+
+h2
+{
+    background-color: rgb(243, 190, 83);
+}
+
+p
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p
+{
+    font-size: 18px; line-height: 2;
+}
+
+
+table
+{
+    border: 1px solid #333;   
+    padding: 10px;            
+    text-align: center;
+}
