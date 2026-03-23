@@ -1,56 +1,24 @@
 
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Arial;
-}
-03
-
-h1 {
-    color: blue;
-    text-align: center;
+h5{
+    color: rgba(81, 81, 194, 0.768);
 }
 
-
-#titulo {
-    background-color: rgb(199, 4, 4);
-    padding: 10px;
+p{
+    color:rgb(51, 160, 184);
 }
-
-
-.parrafo {
-    color: rgb(15, 7, 228);
-    margin: 10px;
+.parrafo1{
+    color:rgb(137, 7, 42);
 }
-.parrafo1 {
-    color: rgb(219, 144, 15);
-    margin: 10px;
+#parrafo2{
+    color:rgb(61, 18, 93);
+
 }
-
-
-.especial {
-    color: red;
-    font-weight: bold;
+div h3{
+    color:rgb(17, 177, 73);
 }
-
-
-.contenedor p {
-    color: green;
+a:hover{
+    color:rgb(221, 137, 12);
 }
-
-
-a:hover {
-    color: orange;
-}
-
-
-h1, p {
-    border: 1px solid black;
-    padding: 5px;
-}
-
-
-.lista {
-    margin: 20px;
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
