@@ -23,4 +23,24 @@ h1, h2, h3{
     color: rgb(18, 69, 142);
 }
 
+a:hover{
+    color: rgb(196, 36, 36);
+}
 
+input[type="button"]:active {
+    background-color: rgb(150, 205, 48);
+    color: rgb(171, 43, 56);
+}
+
+ul li:first-child {
+    color: rgb(115, 108, 245);
+    font-weight: bold;
+}
+
+ul li:nth-child(2) {
+    color: #f10e65;
+}
+
+input:focus {
+    background-color:rgb(63, 201, 216);
+}
