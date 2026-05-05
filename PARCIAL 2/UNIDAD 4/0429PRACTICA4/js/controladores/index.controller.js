@@ -74,4 +74,12 @@ function Index($scope, $log) {
     }  
     ]
 
+    $scope.guardad={};
+
+    $scope.imprimirB = function()
+    {
+        console.log("DATOS DE RUTA");
+        console.log("Datos:", $scope.guardar);
+    }
+
 }

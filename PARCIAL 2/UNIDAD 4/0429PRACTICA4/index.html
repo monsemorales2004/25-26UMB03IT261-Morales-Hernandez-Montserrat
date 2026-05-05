@@ -34,7 +34,7 @@
                 <option ng-repeat="item in optionProveedor" ng-value="item.valor" ng-bind="item.etiqueta"></option>
             </select>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" ng-if="formConsultaRuta.idProveedor">
             <label for="consultarAutoSelect" class="form-label">Auto</label>
             <select id="consultarAutoSelect" class="form-select" ng-model="formConsultaRuta.idAutomovil"
                      >
@@ -42,7 +42,7 @@
                 <option ng-repeat="item in optionsAutos" ng-value="item.valor" ng-bind="item.etiqueta"></option>
             </select>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" ng-if="formConsultaRuta.idAutomovil">
             <label for="consultarDriverSelect" class="form-label">Driver</label>
             <select id="consultarDriverSelect" class="form-select" ng-model="formConsultaRuta.idDriver"
                     >
@@ -50,7 +50,7 @@
                 <option ng-repeat="item in optionDriver" ng-value="item.valor" ng-bind="item.etiqueta"></option>
             </select>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" ng-if="formConsultaRuta.idDriver">
             <label for="formConsultarRutasIdRuta" class="form-label">Id ruta</label>
             <input type="text" class="form-control" id="formConsultarRutasIdRuta" ng-model="formConsultaRuta.idRuta"
                    placeholder="Id ruta">
